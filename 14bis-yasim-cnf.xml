@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<PropertyList include="14bis-base.xml">
+
+  <sim>
+
+    <description>14bis Santos DUMONT (YASim)</description>
+    <flight-model>yasim</flight-model>
+    <aero>14bis-yasim</aero>
+
+  </sim>
+ 
+</PropertyList>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+ 
+    <author>BARANGER Emmanuel</author>
+    <aircraft-version>0.2</aircraft-version>
+    <status>0.1 Alpha</status>
+   
+    <fuel-fraction>1.0</fuel-fraction>
+  
+    <startup>
+      <splash-texture>Aircraft/14bis/14bis-splash.png</splash-texture>
+      <splash-title>Santos Dumont 14bis : 1906</splash-title>
+    </startup>
+
+    <sound>
+      <path archive="y">Aircraft/14bis/Sounds/14bis-sound.xml</path>
+    </sound>
+
+    <model>
+      <path archive="y">Aircraft/14bis/Models/14bis.xml</path>
+    </model>
+
+  </sim>
+
+</PropertyList>
