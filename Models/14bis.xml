@@ -41,6 +41,26 @@
     <object-name>propblur</object-name>
   </animation>
 
+  <!-- Cranking effects -->
+  <!-- Left -->
+  <model>
+    <path>Aircraft/14bis/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m>  2.040 </x-m>
+      <y-m> -0.296 </y-m>
+      <z-m>  0.858 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/14bis/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m>  2.040 </x-m>
+      <y-m>  0.296 </y-m>
+      <z-m>  0.858 </z-m>
+    </offsets>
+  </model>
+
   <!-- Pilote -->
   <model>
     <path>Aircraft/14bis/Models/Pilot/pilot.xml</path>
