@@ -6,25 +6,34 @@
 
   <animation>
     <!-- Objets opaques -->
-    <object-name>tete</object-name>
-    <object-name>visiere</object-name>
-    <object-name>pilote</object-name>
-    <object-name>mains</object-name>
-    <object-name>pieds</object-name>
+    <object-name>hat</object-name>
+    <object-name>hat2</object-name>
+    <object-name>L-head</object-name>
+    <object-name>eye-balls</object-name>
+    <object-name>L-collar</object-name>
+    <object-name>L-chest</object-name>
+    <object-name>LR-arm1</object-name>
+    <object-name>LR-arm2</object-name>
+    <object-name>LR-wrist</object-name>
+    <object-name>handright</object-name>
+    <object-name>LL-arm1</object-name>
+    <object-name>LL-arm2</object-name>
+    <object-name>LL-wrist</object-name>
+    <object-name>handleft</object-name>
+    <object-name>LR-tigh</object-name>
+    <object-name>LR-leg1</object-name>
+    <object-name>LR-Boot</object-name>
+    <object-name>LL-thigh</object-name>
+    <object-name>LL-leg1</object-name>
+    <object-name>LL-Boot</object-name>
 
     <!-- Objets transparents -->
   </animation>
 
-  <animation>
-    <name>AnimeTete</name>
-    <object-name>tete</object-name>
-    <object-name>visiere</object-name>
-  </animation>
-
-  <!-- Visière invisible depuis le cockpit -->
+  <!-- VisiÃ¨re invisible depuis le cockpit -->
   <animation>
     <type>select</type>
-    <object-name>visiere</object-name>
+    <object-name>hat2</object-name>
     <condition>
       <greater-than>
         <property>sim/current-view/view-number</property>
@@ -32,38 +41,45 @@
       </greater-than>
     </condition>
   </animation>
+  
+  <animation>
+    <name>AnimeTete</name>
+    <object-name>hat</object-name>
+    <object-name>L-head</object-name>
+    <object-name>eye-balls</object-name>
+  </animation>
 
   <animation>
     <type>rotate</type>
     <object-name>AnimeTete</object-name>
-    <property>controls/flight/elevator</property>
-    <factor> -15 </factor> 
+    <property>surface-positions/elevator-pos-norm</property>
+    <factor> 10 </factor> 
     <center>
-      <x-m> 0.224 </x-m>
-      <y-m> 0.030 </y-m>
-      <z-m> 0.622 </z-m>
+      <x-m> 0.19175 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> 0.59689 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 1.000 </y>
-      <z> 0.000 </z>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
     </axis>
   </animation>
 
   <animation>
     <type>rotate</type>
     <object-name>AnimeTete</object-name>
-    <property>controls/flight/rudder</property>
-    <factor>-25</factor>
+    <property>surface-positions/rudder-pos-norm</property>
+    <factor> -10 </factor>
     <center>
-      <x-m> 0.224 </x-m>
-      <y-m> 0.030 </y-m>
-      <z-m> 0.622 </z-m>
+      <x-m> 0.19175 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> 0.59689 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 0.000 </y>
-      <z> 1.000 </z>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
     </axis>
   </animation>
 
@@ -71,18 +87,17 @@
     <type>rotate</type>
     <object-name>AnimeTete</object-name>
     <property>surface-positions/left-aileron-pos-norm</property>
-    <factor> -10.0</factor>
+    <factor> -10 </factor>
     <center>
-      <x-m> 0.224 </x-m>
-      <y-m> 0.030 </y-m>
-      <z-m> 0.622 </z-m>
+      <x-m> 0.19175 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> 0.59689 </z-m>
     </center>
     <axis>
-      <x> 1.000 </x>
-      <y> 0.000 </y>
-      <z> 0.000 </z>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
     </axis>
   </animation> 
 
 </PropertyList>
-
