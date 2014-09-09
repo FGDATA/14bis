@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <path>interior.ac</path>
+  
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>cabine</object-name>
+    <object-name>volant</object-name>
+    <object-name>montant</object-name>
+    <object-name>manche</object-name>
+    
+    <!-- Objets transparents -->
+    <object-name>interieur</object-name>
+  </animation>
+  
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/14bis/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m>  1.318 </x-m>
+      <y-m> -0.031 </y-m>
+      <z-m>  1.184 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
